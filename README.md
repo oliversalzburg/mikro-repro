@@ -1,4 +1,5 @@
 ```shell
+yarn tsc --build
 yarn mikro-orm schema:create --run
 
 # Show virtualized copies
