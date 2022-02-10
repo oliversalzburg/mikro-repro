@@ -4,6 +4,6 @@ module.exports = {
   baseDir: path.resolve(__dirname),
   debug: true,
   dbName: "core",
-  entities: [require("first").CoreEntity],
+  entities: [require("./output/entity").CoreEntity],
   type: "postgresql",
 };
