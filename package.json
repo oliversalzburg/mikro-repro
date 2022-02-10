@@ -5,9 +5,6 @@
   "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
   "license": "MIT",
   "packageManager": "yarn@3.1.1",
-  "workspaces": [
-    "packages/*"
-  ],
   "devDependencies": {
     "@mikro-orm/cli": "5.0.1-dev.23",
     "@mikro-orm/core": "5.0.1-dev.23",
