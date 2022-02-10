@@ -1,0 +1,10 @@
+.yarn/*.*
+.yarn/cache/**
+!.yarn/cache/\@fairmanager-*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+packages/*/output

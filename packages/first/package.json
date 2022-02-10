@@ -1,0 +1,17 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "main": "output/index.js",
+  "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
+  "license": "MIT",
+  "packageManager": "yarn@3.1.1",
+  "dependencies": {
+    "@mikro-orm/cli": "5.0.1-dev.23",
+    "@mikro-orm/core": "5.0.1-dev.23",
+    "@mikro-orm/postgresql": "5.0.1-dev.23",
+    "tslib": "2.3.1"
+  },
+  "devDependencies": {
+    "typescript": "4.5.5"
+  }
+}
