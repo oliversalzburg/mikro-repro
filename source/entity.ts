@@ -1,22 +1,8 @@
-import {
-  AnyEntity,
-  AssignOptions,
-  BaseEntity,
-  Entity,
-  EntityAssigner,
-  EntityData,
-  EntityDTO,
-  PrimaryKey,
-  Reference,
-  UuidType,
-} from "@mikro-orm/core";
-
-export class CoreEntityLike {
-  id!: string;
-}
+import { Entity, PrimaryKey, UuidType } from "@mikro-orm/core";
+import { v4 } from "uuid";
 
 @Entity()
 export class CoreEntity {
   @PrimaryKey({ type: UuidType })
-  id = "id";
+  id = v4();
 }
